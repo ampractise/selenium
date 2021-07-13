@@ -7,7 +7,8 @@ import org.testng.annotations.AfterMethod;
 public class Test1 {
   @Test
   public void f() {
-	  System.out.println("This is first test 1");
+	  System.out.println("This is first test line1");
+	  System.out.println("This is first test line 2");
   }
   @BeforeMethod
   public void beforeMethod() {
